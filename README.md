@@ -2,6 +2,8 @@
 
 Yet Another RPC Framework :D
 
+[Proposal](https://github.com/MwrPub/method-working-remotely)
+
 [![License](https://img.shields.io/github/license/mwrpub/mwrpc-js.svg?color=blue&style=flat-square)](https://github.com/mwrpub/mwrpc-js/blob/master/LICENSE)
 [![npm](https://img.shields.io/npm/v/mwrpc.svg?logo=npm&style=flat-square)](https://www.npmjs.com/package/mwrpc)
 ![npm](https://img.shields.io/npm/dt/mwrpc.svg?logo=javascript&style=flat-square)
