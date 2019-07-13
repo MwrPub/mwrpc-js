@@ -1,0 +1,20 @@
+{
+  "name": "mwrpc",
+  "version": "0.1.4",
+  "description": "Yet Another RPC Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": "https://github.com/mwrpub/mwrpc-js",
+  "keywords": [
+    "rpc",
+    "mwr"
+  ],
+  "author": "mwr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MwrPub/mwrpc-js/issues"
+  },
+  "homepage": "https://github.com/MwrPub/mwrpc-js"
+}
