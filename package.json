@@ -2,11 +2,21 @@
   "name": "mwrpc",
   "version": "0.1.4",
   "description": "Yet Another RPC Framework",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "npm test"
+    "build:browser": "webpack"
   },
-  "repository": "https://github.com/mwrpub/mwrpc-js",
+  "dependencies": {
+    "cross-fetch": "^3.0.4"
+  },
+  "devDependencies": {
+    "webpack": "^4.13.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwrpub/mwrpc-js.git"
+  },
   "keywords": [
     "rpc",
     "mwr"
@@ -14,7 +24,7 @@
   "author": "mwr",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MwrPub/mwrpc-js/issues"
+    "url": "https://github.com/mwrpub/mwrpc-js/issues"
   },
-  "homepage": "https://github.com/MwrPub/mwrpc-js"
+  "homepage": "https://github.com/mwrpub/mwrpc-js"
 }
