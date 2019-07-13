@@ -1,6 +1,6 @@
 {
   "name": "mwrpc",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Yet Another RPC Framework",
   "main": "src/index.js",
   "scripts": {
