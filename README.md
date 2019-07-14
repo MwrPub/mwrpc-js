@@ -34,3 +34,17 @@ calc.add(1,2).then(res=>{
     console.log(res);
 });
 ```
+
+> Server Side
+
+```javascript
+const Mwr = require("mwrpc");
+
+let s = new Mwr.MwrServer({});
+s.func({
+    name: 'add', endpoint: 'calc', func: function (a, b) {
+        return Number.parseInt(a) + Number.parseInt(b);
+    }
+});
+s.run();
+```
