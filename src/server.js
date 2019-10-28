@@ -66,7 +66,7 @@ class MwrServer {
             }
             response.end(JSON.stringify({"code": -1, "err": "method not exists"}));
         })).listen(this.port, this.host);
-        console.log(`MWR 0.1.6\nServing MWR on ${this.host}:${this.port}\n(Press CTRL+C to quit)`)
+        console.log(`MWR 0.1.7\nServing MWR on ${this.host}:${this.port}\n(Press CTRL+C to quit)`)
     }
 }
 
